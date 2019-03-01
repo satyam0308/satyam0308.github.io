@@ -23,6 +23,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html,body{
+  height: 100%
+	overflow-y:auto;
+}
 body {
 	line-height: 1;
 }
@@ -45,14 +49,20 @@ table {
 
 .full-container{
   width:100%;
-  height:100%;
+  min-height:100%;
+	overflow-y:auto;
+	overflow-x: hidden;
 }
 .menu{
+  position: fixed;
   width:100%;
   height:60px;
+  z-index: 100;
   background-color: black;
 }
 .front-banner{
+  position: relative;
+  top:60px;
   width:100%;
   height: 400px;
   text-align: center;
@@ -76,8 +86,9 @@ table {
 }
 #read-more{
   position: relative;
-  top:120px;
-  left:33%;
+  top:140px;
+  margin-left: auto;
+  margin-right: auto;
   width:120px;
   height:50px;
   background-color: white;
@@ -93,6 +104,8 @@ table {
 .content-container{
   width: 100%;
   height: 600px;
+  position: relative;
+  top:60px;
   background-color: #f2f3fa;
 
 }
@@ -106,6 +119,7 @@ table {
   text-align: center;
 }
 .blog-box{
+
   position: relative;
   margin-bottom: 20px;
   margin-left: 20px;
@@ -116,12 +130,15 @@ table {
   margin-right: auto;
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24),0 0 4px 0 rgba(0,0,0,0.14)
 }
-
 .footer{
-  position: relative;
-  bottom:0px;
-  width:100%;
-  height: 100px;
-  background-color: black;
-
+	position: relative;
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	clear: both;
+}
+#heading2{
+	font-size: 25px;
+	color:black;
+	font-family:"arial";
 }
