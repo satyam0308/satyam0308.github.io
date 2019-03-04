@@ -186,7 +186,7 @@ html,body{
 .menu-mobile-btn{
   position: relative;
   top:5px;
-  background-image: url('http://localhost/files/website/img/whitemenu.png');
+  background-image: url('../img/whitemenu.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
