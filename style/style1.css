@@ -75,12 +75,7 @@ html,body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    transition-property: all;
-    transition-duration: 2s;
-    transition-timing-function:ease-in;
-    -webkit-transition-property: all;
-    -webkit-transition-duration: 2s;
-    -webkit-transition-timing-function:ease-in;
+
   }
   .menu-mobile,.menu-mobile-content{
     display: none;
@@ -118,7 +113,7 @@ html,body{
     height: 45px;
     width: 45px;
     display: inline-block;
-    background-image: url('../img/logo.png');
+    background-image: url('http://localhost/files/website/img/logo.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -163,23 +158,18 @@ html,body{
     border-color: orange;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:780px){
 
   .banner{
     position: relative;
     top:0px;
     width: 100%;
-    height: calc(70vh);
+    height: calc(40vh);
     background-image: url('../img/image1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    transition-property: all;
-    transition-duration: 2s;
-    transition-timing-function:ease-in;
-    -webkit-transition-property: all;
-    -webkit-transition-duration: 2s;
-    -webkit-transition-timing-function:ease-in;
+
   }
   .menu-desktop{
     display: none;
@@ -196,8 +186,7 @@ html,body{
 .menu-mobile-btn{
   position: relative;
   top:5px;
-  background-color: white;
-  background-image: url('../img/menu.png');
+  background-image: url('http://localhost/files/website/img/whitemenu.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -205,7 +194,7 @@ html,body{
   width:40px;
   float: right;
   margin-right: 10px;
-  border-radius: 100%;
+  background-size: 70%;
 
 }
 
@@ -238,7 +227,7 @@ html,body{
 }
 .heading-linux{
   position: absolute;
-  top: calc(30vh);
+  top: calc(15vh);
   left: calc((100vw - 250px)/2);
   color:white;
   text-align: center;
@@ -246,7 +235,7 @@ html,body{
   height: 50px;
   line-height: 20px;
   font-family: 'Merriweather', serif;
-  font-size: 25px;
+  font-size: 35px;
 }
 #bloglovers{
   font-family: 'Montserrat', sans-serif;
@@ -256,15 +245,15 @@ html,body{
 }
 #two-buttons li{
   position: relative;
-  top:calc(35vh);
+  top:calc(20vh);
   left:calc((100vw - 160px)/2);
   margin-right: 10px;
   line-height: 20px;
   display: inline-block;
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
   border:2px solid white;
-  width: 70px;
+  width: 80px;
   height: 20px;
 }
 #two-buttons a{
